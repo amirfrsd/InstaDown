@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD5F781A1C651B3400387229 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F78191C651B3400387229 /* main.m */; };
+		CD5F781D1C651B3400387229 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F781C1C651B3400387229 /* AppDelegate.m */; };
+		CD5F78201C651B3400387229 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F781F1C651B3400387229 /* ViewController.m */; };
+		CD5F78231C651B3400387229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5F78211C651B3400387229 /* Main.storyboard */; };
+		CD5F78251C651B3400387229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5F78241C651B3400387229 /* Assets.xcassets */; };
+		CD5F78281C651B3400387229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5F78261C651B3400387229 /* LaunchScreen.storyboard */; };
+		CD5F78331C651B3400387229 /* InstaDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F78321C651B3400387229 /* InstaDownTests.m */; };
+		CD5F783E1C651B3400387229 /* InstaDownUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F783D1C651B3400387229 /* InstaDownUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD5F782F1C651B3400387229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD5F780D1C651B3400387229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD5F78141C651B3400387229;
+			remoteInfo = InstaDown;
+		};
+		CD5F783A1C651B3400387229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD5F780D1C651B3400387229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD5F78141C651B3400387229;
+			remoteInfo = InstaDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD5F78151C651B3400387229 /* InstaDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5F78191C651B3400387229 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD5F781B1C651B3400387229 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD5F781C1C651B3400387229 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD5F781E1C651B3400387229 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD5F781F1C651B3400387229 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD5F78221C651B3400387229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD5F78241C651B3400387229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD5F78271C651B3400387229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD5F78291C651B3400387229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5F782E1C651B3400387229 /* InstaDownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaDownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5F78321C651B3400387229 /* InstaDownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaDownTests.m; sourceTree = "<group>"; };
+		CD5F78341C651B3400387229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5F78391C651B3400387229 /* InstaDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaDownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5F783D1C651B3400387229 /* InstaDownUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaDownUITests.m; sourceTree = "<group>"; };
+		CD5F783F1C651B3400387229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD5F78121C651B3400387229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5F782B1C651B3400387229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5F78361C651B3400387229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD5F780C1C651B3400387229 = {
+			isa = PBXGroup;
+			children = (
+				CD5F78171C651B3400387229 /* InstaDown */,
+				CD5F78311C651B3400387229 /* InstaDownTests */,
+				CD5F783C1C651B3400387229 /* InstaDownUITests */,
+				CD5F78161C651B3400387229 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD5F78161C651B3400387229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD5F78151C651B3400387229 /* InstaDown.app */,
+				CD5F782E1C651B3400387229 /* InstaDownTests.xctest */,
+				CD5F78391C651B3400387229 /* InstaDownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD5F78171C651B3400387229 /* InstaDown */ = {
+			isa = PBXGroup;
+			children = (
+				CD5F781B1C651B3400387229 /* AppDelegate.h */,
+				CD5F781C1C651B3400387229 /* AppDelegate.m */,
+				CD5F781E1C651B3400387229 /* ViewController.h */,
+				CD5F781F1C651B3400387229 /* ViewController.m */,
+				CD5F78211C651B3400387229 /* Main.storyboard */,
+				CD5F78241C651B3400387229 /* Assets.xcassets */,
+				CD5F78261C651B3400387229 /* LaunchScreen.storyboard */,
+				CD5F78291C651B3400387229 /* Info.plist */,
+				CD5F78181C651B3400387229 /* Supporting Files */,
+			);
+			path = InstaDown;
+			sourceTree = "<group>";
+		};
+		CD5F78181C651B3400387229 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD5F78191C651B3400387229 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD5F78311C651B3400387229 /* InstaDownTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD5F78321C651B3400387229 /* InstaDownTests.m */,
+				CD5F78341C651B3400387229 /* Info.plist */,
+			);
+			path = InstaDownTests;
+			sourceTree = "<group>";
+		};
+		CD5F783C1C651B3400387229 /* InstaDownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD5F783D1C651B3400387229 /* InstaDownUITests.m */,
+				CD5F783F1C651B3400387229 /* Info.plist */,
+			);
+			path = InstaDownUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD5F78141C651B3400387229 /* InstaDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5F78421C651B3400387229 /* Build configuration list for PBXNativeTarget "InstaDown" */;
+			buildPhases = (
+				CD5F78111C651B3400387229 /* Sources */,
+				CD5F78121C651B3400387229 /* Frameworks */,
+				CD5F78131C651B3400387229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaDown;
+			productName = InstaDown;
+			productReference = CD5F78151C651B3400387229 /* InstaDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD5F782D1C651B3400387229 /* InstaDownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5F78451C651B3400387229 /* Build configuration list for PBXNativeTarget "InstaDownTests" */;
+			buildPhases = (
+				CD5F782A1C651B3400387229 /* Sources */,
+				CD5F782B1C651B3400387229 /* Frameworks */,
+				CD5F782C1C651B3400387229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5F78301C651B3400387229 /* PBXTargetDependency */,
+			);
+			name = InstaDownTests;
+			productName = InstaDownTests;
+			productReference = CD5F782E1C651B3400387229 /* InstaDownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD5F78381C651B3400387229 /* InstaDownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5F78481C651B3400387229 /* Build configuration list for PBXNativeTarget "InstaDownUITests" */;
+			buildPhases = (
+				CD5F78351C651B3400387229 /* Sources */,
+				CD5F78361C651B3400387229 /* Frameworks */,
+				CD5F78371C651B3400387229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5F783B1C651B3400387229 /* PBXTargetDependency */,
+			);
+			name = InstaDownUITests;
+			productName = InstaDownUITests;
+			productReference = CD5F78391C651B3400387229 /* InstaDownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD5F780D1C651B3400387229 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Emersad;
+				TargetAttributes = {
+					CD5F78141C651B3400387229 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = XG3YPBJPMS;
+					};
+					CD5F782D1C651B3400387229 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = XG3YPBJPMS;
+						TestTargetID = CD5F78141C651B3400387229;
+					};
+					CD5F78381C651B3400387229 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = XG3YPBJPMS;
+						TestTargetID = CD5F78141C651B3400387229;
+					};
+				};
+			};
+			buildConfigurationList = CD5F78101C651B3400387229 /* Build configuration list for PBXProject "InstaDown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD5F780C1C651B3400387229;
+			productRefGroup = CD5F78161C651B3400387229 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD5F78141C651B3400387229 /* InstaDown */,
+				CD5F782D1C651B3400387229 /* InstaDownTests */,
+				CD5F78381C651B3400387229 /* InstaDownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD5F78131C651B3400387229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5F78281C651B3400387229 /* LaunchScreen.storyboard in Resources */,
+				CD5F78251C651B3400387229 /* Assets.xcassets in Resources */,
+				CD5F78231C651B3400387229 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5F782C1C651B3400387229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5F78371C651B3400387229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD5F78111C651B3400387229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5F78201C651B3400387229 /* ViewController.m in Sources */,
+				CD5F781D1C651B3400387229 /* AppDelegate.m in Sources */,
+				CD5F781A1C651B3400387229 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5F782A1C651B3400387229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5F78331C651B3400387229 /* InstaDownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5F78351C651B3400387229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5F783E1C651B3400387229 /* InstaDownUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD5F78301C651B3400387229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD5F78141C651B3400387229 /* InstaDown */;
+			targetProxy = CD5F782F1C651B3400387229 /* PBXContainerItemProxy */;
+		};
+		CD5F783B1C651B3400387229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD5F78141C651B3400387229 /* InstaDown */;
+			targetProxy = CD5F783A1C651B3400387229 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD5F78211C651B3400387229 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5F78221C651B3400387229 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD5F78261C651B3400387229 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5F78271C651B3400387229 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD5F78401C651B3400387229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD5F78411C651B3400387229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD5F78431C651B3400387229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstaDown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.emersad.InstaDown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD5F78441C651B3400387229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstaDown/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.emersad.InstaDown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD5F78461C651B3400387229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstaDownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.emersad.InstaDownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaDown.app/InstaDown";
+			};
+			name = Debug;
+		};
+		CD5F78471C651B3400387229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstaDownTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.emersad.InstaDownTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaDown.app/InstaDown";
+			};
+			name = Release;
+		};
+		CD5F78491C651B3400387229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InstaDownUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.emersad.InstaDownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InstaDown;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD5F784A1C651B3400387229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InstaDownUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.emersad.InstaDownUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InstaDown;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD5F78101C651B3400387229 /* Build configuration list for PBXProject "InstaDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5F78401C651B3400387229 /* Debug */,
+				CD5F78411C651B3400387229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5F78421C651B3400387229 /* Build configuration list for PBXNativeTarget "InstaDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5F78431C651B3400387229 /* Debug */,
+				CD5F78441C651B3400387229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD5F78451C651B3400387229 /* Build configuration list for PBXNativeTarget "InstaDownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5F78461C651B3400387229 /* Debug */,
+				CD5F78471C651B3400387229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD5F78481C651B3400387229 /* Build configuration list for PBXNativeTarget "InstaDownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5F78491C651B3400387229 /* Debug */,
+				CD5F784A1C651B3400387229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD5F780D1C651B3400387229 /* Project object */;
+}
