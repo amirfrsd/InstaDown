@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MBProgressHUD.h"
+#import <AssetsLibrary/AssetsLibrary.h>
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *instagramURL;
+- (IBAction)pasteBtn:(id)sender;
+@property (weak, nonatomic) IBOutlet UIWebView *wView;
 
 @end
 

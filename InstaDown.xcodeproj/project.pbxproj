@@ -15,6 +15,17 @@
 		CD5F78281C651B3400387229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5F78261C651B3400387229 /* LaunchScreen.storyboard */; };
 		CD5F78331C651B3400387229 /* InstaDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F78321C651B3400387229 /* InstaDownTests.m */; };
 		CD5F783E1C651B3400387229 /* InstaDownUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F783D1C651B3400387229 /* InstaDownUITests.m */; };
+		CD5F784F1C652CC100387229 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F784E1C652CC100387229 /* MBProgressHUD.m */; };
+		CD5F78521C652D1B00387229 /* BYekan.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD5F78511C652D1B00387229 /* BYekan.ttf */; };
+		CD5F78961C65403B00387229 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5F78951C65403B00387229 /* AssetsLibrary.framework */; };
+		CD98705C1C676DC600C2B555 /* AdobeArabic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD98705B1C676DC600C2B555 /* AdobeArabic-Regular.otf */; };
+		CD98705F1C677B8900C2B555 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD98705E1C677B8900C2B555 /* PageContentViewController.m */; };
+		CD9870651C67835F00C2B555 /* 2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CD9870601C67835F00C2B555 /* 2.PNG */; };
+		CD9870661C67835F00C2B555 /* 5.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CD9870611C67835F00C2B555 /* 5.PNG */; };
+		CD9870671C67835F00C2B555 /* 1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CD9870621C67835F00C2B555 /* 1.PNG */; };
+		CD9870681C67835F00C2B555 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9870631C67835F00C2B555 /* 3.png */; };
+		CD9870691C67835F00C2B555 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9870641C67835F00C2B555 /* 4.png */; };
+		CD98706B1C67836700C2B555 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = CD98706A1C67836700C2B555 /* help.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,20 @@
 		CD5F78391C651B3400387229 /* InstaDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaDownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5F783D1C651B3400387229 /* InstaDownUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaDownUITests.m; sourceTree = "<group>"; };
 		CD5F783F1C651B3400387229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5F784D1C652CC100387229 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CD5F784E1C652CC100387229 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CD5F78511C652D1B00387229 /* BYekan.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BYekan.ttf; sourceTree = "<group>"; };
+		CD5F78951C65403B00387229 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CD98705A1C676C7300C2B555 /* B Traffic_YasDL.com.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "B Traffic_YasDL.com.ttf"; sourceTree = "<group>"; };
+		CD98705B1C676DC600C2B555 /* AdobeArabic-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AdobeArabic-Regular.otf"; sourceTree = "<group>"; };
+		CD98705D1C677B8900C2B555 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		CD98705E1C677B8900C2B555 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
+		CD9870601C67835F00C2B555 /* 2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.PNG; sourceTree = "<group>"; };
+		CD9870611C67835F00C2B555 /* 5.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.PNG; sourceTree = "<group>"; };
+		CD9870621C67835F00C2B555 /* 1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.PNG; sourceTree = "<group>"; };
+		CD9870631C67835F00C2B555 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		CD9870641C67835F00C2B555 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		CD98706A1C67836700C2B555 /* help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = help.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5F78961C65403B00387229 /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +107,7 @@
 		CD5F780C1C651B3400387229 = {
 			isa = PBXGroup;
 			children = (
+				CD5F78951C65403B00387229 /* AssetsLibrary.framework */,
 				CD5F78171C651B3400387229 /* InstaDown */,
 				CD5F78311C651B3400387229 /* InstaDownTests */,
 				CD5F783C1C651B3400387229 /* InstaDownUITests */,
@@ -105,6 +132,8 @@
 				CD5F781C1C651B3400387229 /* AppDelegate.m */,
 				CD5F781E1C651B3400387229 /* ViewController.h */,
 				CD5F781F1C651B3400387229 /* ViewController.m */,
+				CD98705D1C677B8900C2B555 /* PageContentViewController.h */,
+				CD98705E1C677B8900C2B555 /* PageContentViewController.m */,
 				CD5F78211C651B3400387229 /* Main.storyboard */,
 				CD5F78241C651B3400387229 /* Assets.xcassets */,
 				CD5F78261C651B3400387229 /* LaunchScreen.storyboard */,
@@ -117,6 +146,16 @@
 		CD5F78181C651B3400387229 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CD98706A1C67836700C2B555 /* help.html */,
+				CD9870601C67835F00C2B555 /* 2.PNG */,
+				CD9870611C67835F00C2B555 /* 5.PNG */,
+				CD9870621C67835F00C2B555 /* 1.PNG */,
+				CD9870631C67835F00C2B555 /* 3.png */,
+				CD9870641C67835F00C2B555 /* 4.png */,
+				CD5F78501C652CC500387229 /* MBProgressHUD */,
+				CD5F78511C652D1B00387229 /* BYekan.ttf */,
+				CD98705B1C676DC600C2B555 /* AdobeArabic-Regular.otf */,
+				CD98705A1C676C7300C2B555 /* B Traffic_YasDL.com.ttf */,
 				CD5F78191C651B3400387229 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +177,15 @@
 				CD5F783F1C651B3400387229 /* Info.plist */,
 			);
 			path = InstaDownUITests;
+			sourceTree = "<group>";
+		};
+		CD5F78501C652CC500387229 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CD5F784D1C652CC100387229 /* MBProgressHUD.h */,
+				CD5F784E1C652CC100387229 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +294,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9870661C67835F00C2B555 /* 5.PNG in Resources */,
+				CD98706B1C67836700C2B555 /* help.html in Resources */,
+				CD9870671C67835F00C2B555 /* 1.PNG in Resources */,
+				CD9870651C67835F00C2B555 /* 2.PNG in Resources */,
+				CD9870681C67835F00C2B555 /* 3.png in Resources */,
+				CD98705C1C676DC600C2B555 /* AdobeArabic-Regular.otf in Resources */,
+				CD5F78521C652D1B00387229 /* BYekan.ttf in Resources */,
 				CD5F78281C651B3400387229 /* LaunchScreen.storyboard in Resources */,
 				CD5F78251C651B3400387229 /* Assets.xcassets in Resources */,
+				CD9870691C67835F00C2B555 /* 4.png in Resources */,
 				CD5F78231C651B3400387229 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +331,9 @@
 			files = (
 				CD5F78201C651B3400387229 /* ViewController.m in Sources */,
 				CD5F781D1C651B3400387229 /* AppDelegate.m in Sources */,
+				CD98705F1C677B8900C2B555 /* PageContentViewController.m in Sources */,
 				CD5F781A1C651B3400387229 /* main.m in Sources */,
+				CD5F784F1C652CC100387229 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +557,7 @@
 				CD5F78441C651B3400387229 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD5F78451C651B3400387229 /* Build configuration list for PBXNativeTarget "InstaDownTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +566,7 @@
 				CD5F78471C651B3400387229 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD5F78481C651B3400387229 /* Build configuration list for PBXNativeTarget "InstaDownUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +575,7 @@
 				CD5F784A1C651B3400387229 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
